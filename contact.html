@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="christianVentura" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Option 2_Final Project_GIT-215_CV - contact page for Serenity Glacial Resort"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Serenity Glacial Resort - Contact</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/mountain_10573747.png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="item">
+        <h1><a href="index.html">Serenity Glacial Resort</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="hero">
+      <img
+        src="images/swiss-valley.jpg"
+        alt="image of a swiss valley with mountains and trees"
+      />
+    </section>
+
+    <section class="main">
+      <div class="item1">
+        <h2>Contact Us</h2>
+        <hr />
+        <p>
+          Please reach out to us with any questions or concerns. <br />We are
+          happy to help you plan your dream vacation with us!
+        </p>
+      </div>
+    </section>
+    <div class="item4">
+      <div class="item6">
+        <img
+          src="images/swiss-peak.jpg"
+          alt="swiss river cutting through a lush forest amidst a snow covered mountain"
+        />
+      </div>
+      <div class="item5">
+        <section class="form">
+          <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+            <div class="item6">
+              <label for="fullName">Full Name:</label><br />
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                required
+              /><br /><br />
+
+              <label for="email">Email Address:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+
+              <label for="phone">Phone Number:</label><br />
+              <input type="tel" id="phone" name="phone" required /><br /><br />
+
+              <label>Preferred Contact Method:</label><br />
+              <input
+                type="radio"
+                id="contactEmail"
+                name="contactMethod"
+                value="email"
+                required
+              />
+
+              <label for="contactEmail">Email</label><br />
+              <input
+                type="radio"
+                id="contactPhone"
+                name="contactMethod"
+                value="phone"
+                required
+              />
+
+              <label for="contactPhone">Phone</label><br />
+
+              <label for="comments">Comments:</label><br />
+              <textarea id="comments" name="comments" required></textarea
+              ><br /><br />
+
+              <button type="submit" class="button1">Submit</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <footer>
+        <p>Copyright &copy;2023 - Serenity Glacial Resort</p>
+        <p>This site is for educational purposes only</p>
+      </footer>
+    </section>
+  </body>
+</html>
